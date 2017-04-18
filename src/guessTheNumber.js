@@ -10,7 +10,7 @@ function guessTheNumber(val) {
         prompt('guess a number between 1 & 100!'); // prompt the user to guess a number 
         if (guess == magicNum) { //if function that notifies the user that they won otherwise telling the user to guess again
             alert('YOU UH BEAST'); //winner alert 
-            break; //end the game if won
+            break; //end the game if won    `
         } else { // else function to keep guess again
             prompt("YOU MAKE ME SICK, TRY AGAIN!");
         }
