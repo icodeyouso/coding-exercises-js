@@ -1,12 +1,12 @@
 import { expect } from 'chai'
-import guessTheNumber from '../src/guessTheNumber'
+import stringPermutation from '../src/stringPermutation'
 
 
-console.log("hello", typeof(guessTheNumber))
+console.log("hello", typeof(stringPermutation))
 
-describe('guessTheNumber()', () => {
+describe('stringPermutation()', () => {
     it('should exsist', () => {
-            return expect(guessTheNumber).to.be.a('function')
+            return expect(stringPermutation).to.be.a('function')
         })
         // Your tests here... 
 
