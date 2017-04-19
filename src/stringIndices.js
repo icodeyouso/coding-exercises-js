@@ -1,6 +1,6 @@
 const readlineSync = require('readline-sync');
 
-const index = 2
+const user = [];
 const splitString = "cash me outside".split
 const indexOf = stringArray[index]
 const stringArray = ["boy", "girl"];
@@ -8,8 +8,12 @@ const stringIndex = function(index) {
     // take the users input 
     // compare to my array 
     //return the value of that index
-    if (index > indexOf) {
 
+    for (var i = 0; i < stringIndex.length; i++) {
+        if (userInput === stringIndex[1])
+            return stringIndex[i]
     }
-    //return stringIndex();
 }
+
+
+//return stringIndex();
