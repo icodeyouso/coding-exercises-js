@@ -2,11 +2,11 @@ import { expect } from 'chai'
 import guessTheNumber from '../src/guessTheNumber'
 
 
-console.log("hello", typeof(guessTheNumber))
+console.log("hello", typeof(playitAgain))
 
-describe('guessTheNumber()', () => {
+describe('playitAgain()', () => {
     it('should exsist', () => {
-            return expect(guessTheNumber).to.be.a('function')
+            return expect(playitAgain).to.be.a('function')
         })
         // Your tests here... 
 
