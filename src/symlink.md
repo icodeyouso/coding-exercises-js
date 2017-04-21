@@ -11,3 +11,4 @@
 ## Delete a symlink
 
 `rm [name-of-symlink]`
+
