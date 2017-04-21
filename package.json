@@ -11,7 +11,8 @@
         "mocha": "2.0.1"
     },
     "scripts": {
-        "test": "mocha --compilers js:babel-register test/guessTheNumber_test.js"
+        "test": "mocha --compilers js:babel-register test/guessTheNumber_test.js",
+        "start:run": "babel src -d lib && node lib/FiniteStateGate.js"
     },
     "dependencies": {
         "readline-sync": "^1.4.7"
