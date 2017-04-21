@@ -4,9 +4,7 @@ export default class Ifmachine {
             this.timeOutid = undefined
 
     }
-    remoteClicked() {
-
-    }
+    remoteClicked() {}
 }
 const myMachine = new Ifmachine()
 console.log(myMachine.state)
